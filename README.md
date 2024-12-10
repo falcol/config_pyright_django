@@ -1,4 +1,4 @@
-# config_pyright_django
+# config_pyright_django vscode
 ```
 pip install django-types
 pip install django-stubs
