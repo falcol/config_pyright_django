@@ -1,4 +1,4 @@
-# config_pyright_django vscode
+# config_pyright_django windsurf
 ```
 pip install django-types
 pip install django-stubs
