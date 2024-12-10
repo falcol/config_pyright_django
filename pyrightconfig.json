@@ -1,0 +1,21 @@
+{
+    "include": [
+        "**/**/*.py"
+    ],
+    "exclude": [
+        "**/migrations/**",
+        "**/__pycache__/**",
+        "**/venv/**",
+        "**/uvenv/**",
+        "**/env/**"
+    ],
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": true,
+    "typeCheckingMode": "off",
+    "pythonVersion": "3.10",
+    "venvPath": "./venv",
+    "extraPaths": [
+        "./venv/Lib/site-packages"  // Windows
+        // "./venv/lib/python3.x/site-packages" // macOS/Linux (replace '3.x' with your Python version)
+    ]
+}
